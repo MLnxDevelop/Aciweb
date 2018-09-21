@@ -1,0 +1,9 @@
+.logoSize {
+    width: 25%;
+    height: 25%;
+}
+
+body{
+    background-image: url('../img/background.png');
+    margin-top: 46px;
+}
