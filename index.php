@@ -2,6 +2,9 @@
 @session_start();
 require_once './config/SysConfig.php';
 require_once AWPROOT . '/config/SysConfig.php';
+require_once MLIBPATH . 'Access/SessionVars.php';
+
+$sess = new SessionVars();
 ?>
 
 <!DOCTYPE html>
@@ -11,7 +14,7 @@ require_once AWPROOT . '/config/SysConfig.php';
         <link rel="icon" href="<?php echo AWPROOTHTML . '/views/img/logo.png' ?>" sizes="32x32">
         <title>Aciweb</title>
         <?php include_once AWPROOT . '/links.php'; ?>
-        <script type="text/javascript" src="views/js/index.js"></script>
+        <script type="text/javascript" src="views/js/login.js"></script>
     </head>
     <body>
         <div class="row">
