@@ -16,7 +16,7 @@ $sess = new SessionVars();
         <?php include_once AWPROOT . '/links.php'; ?>
         <script type="text/javascript" src="views/js/login.js"></script>
     </head>
-    <body>
+    <body onload="onLoadBody();">
         <div class="row">
             <div class="col m3 l4"></div>
             <div class="frm-login col s12 m6 l4 center-align">
